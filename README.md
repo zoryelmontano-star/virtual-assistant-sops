@@ -1,24 +1,24 @@
-# Virtual Assistant SOPs & Playbooks
+# Operations & Customer Experience Playbooks
 
-This repository contains **sample Standard Operating Procedures (SOPs)** and workflow documentation created to demonstrate my experience as a **Senior Virtual Assistant** specializing in:
+A portfolio website featuring sample SOPs, workflows, QA frameworks, and operating playbooks across:
 
-- Executive & administrative support  
-- Operations and process documentation  
-- Customer support workflows and escalation handling  
-- Remote team onboarding and quality assurance  
+- Executive support
+- Customer experience
+- Business operations
+- Team management
+- Systems and automation
 
-⚠️ **Note:**  
-All documents are **sample materials** created for portfolio purposes.  
-No real client data or confidential information is included.
+The site is built as a lightweight static website using HTML, CSS, and JavaScript so it can be published directly with GitHub Pages.
 
----
+## Portfolio structure
 
-## What You’ll Find Here
+- `index.html` — website homepage and searchable playbook library
+- `playbook.html` — reusable detail page for each playbook
+- `data.js` — sample playbook content
+- `styles.css` — responsive portfolio styling
+- `app.js` — search and category filtering
+- `detail.js` — individual playbook rendering
 
-- Executive support workflows  
-- Daily operations checklists  
-- Customer support SOPs  
-- Escalation and QA guidelines  
-- Remote team onboarding templates  
+## Portfolio note
 
-These documents reflect how I organize, document, and improve business operations for founders and remote teams.
+All materials are samples created for portfolio purposes. No real client data, confidential information, or proprietary internal documentation is included.
