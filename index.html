@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Operations, customer experience, executive support, and systems playbooks by Zoryel Montano." />
+  <meta name="theme-color" content="#171719" />
+  <title>Zoryel Montano | Operations Playbooks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Home">
+      <span class="brand-mark">ZM</span>
+      <span><strong>Zoryel Montano</strong><small>Operations Playbooks</small></span>
+    </a>
+    <nav>
+      <a href="#library">Playbooks</a>
+      <a href="#approach">Approach</a>
+      <a href="https://github.com/zoryelmontano-star" target="_blank" rel="noreferrer">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">OPERATIONS • CUSTOMER EXPERIENCE • EXECUTIVE SUPPORT</p>
+        <h1>Systems that make work<br><span>clearer, faster, and easier to run.</span></h1>
+        <p class="hero-text">A portfolio of practical SOPs, workflows, QA frameworks, and operating playbooks designed for founders, remote teams, support operations, and executive support.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#library">Browse playbooks</a>
+          <a class="button secondary" href="#approach">How I structure systems</a>
+        </div>
+        <div class="hero-proof">
+          <span>Executive support</span><span>Customer experience</span><span>Business operations</span><span>Team enablement</span><span>Automation</span>
+        </div>
+      </div>
+      <div class="hero-board" aria-label="Workflow preview">
+        <div class="board-top"><span>OPERATIONS CONTROL BOARD</span><span class="live-dot">Sample system</span></div>
+        <div class="board-row"><b>01</b><div><strong>Capture</strong><small>Request, trigger, or issue enters the workflow</small></div><i>→</i></div>
+        <div class="board-row"><b>02</b><div><strong>Prioritize</strong><small>Urgency, impact, owner, and deadline are defined</small></div><i>→</i></div>
+        <div class="board-row"><b>03</b><div><strong>Execute</strong><small>Atomic steps, decision points, and checks guide delivery</small></div><i>→</i></div>
+        <div class="board-row"><b>04</b><div><strong>Verify</strong><small>QA, documentation, follow-up, and metrics close the loop</small></div><i>✓</i></div>
+        <div class="board-footer"><span>Clear ownership</span><span>Repeatable quality</span><span>Fewer handoff gaps</span></div>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="Portfolio scope">
+      <div><strong>12</strong><span>sample playbooks</span></div>
+      <div><strong>5</strong><span>operational areas</span></div>
+      <div><strong>100%</strong><span>sample, no client data</span></div>
+      <div><strong>MECE</strong><span>structured workflows</span></div>
+    </section>
+
+    <section id="library" class="library-section">
+      <div class="section-head">
+        <div><p class="eyebrow">PLAYBOOK LIBRARY</p><h2>Practical systems you can actually use.</h2></div>
+        <p>Each sample includes the business context, step-by-step workflow, decision points, QA controls, metrics, and opportunities for automation.</p>
+      </div>
+
+      <div class="library-toolbar">
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search workflows, tools, or outcomes…" /></label>
+        <div id="filters" class="filters" aria-label="Playbook filters"></div>
+      </div>
+
+      <div id="playbookGrid" class="playbook-grid"></div>
+      <div id="emptyState" class="empty-state hidden">No playbooks match that search.</div>
+    </section>
+
+    <section id="approach" class="approach-section">
+      <div class="section-head compact">
+        <div><p class="eyebrow">HOW I BUILD SYSTEMS</p><h2>Documentation should help people make better decisions.</h2></div>
+      </div>
+      <div class="approach-grid">
+        <article><span>01</span><h3>Start with the trigger</h3><p>Every workflow begins with a clear event, request, or condition so people know exactly when the SOP applies.</p></article>
+        <article><span>02</span><h3>Make ownership visible</h3><p>Responsibility, escalation paths, handoffs, and deadlines are explicit instead of living in someone’s head.</p></article>
+        <article><span>03</span><h3>Separate steps from judgment</h3><p>Routine actions become checklists. Decisions become clear rules, thresholds, and exception paths.</p></article>
+        <article><span>04</span><h3>Close the loop</h3><p>Every process ends with QA, documentation, follow-up, measurable outcomes, and a clear next state.</p></article>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div><p class="eyebrow">PORTFOLIO NOTE</p><h2>Built to demonstrate how I think about operations.</h2><p>These are sample materials created for portfolio purposes. No real client information, confidential data, or proprietary internal documentation is included.</p></div>
+      <a class="button primary" href="https://github.com/zoryelmontano-star/virtual-assistant-sops" target="_blank" rel="noreferrer">View repository</a>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Zoryel Montano</span><span>Operations • CX • Executive Support</span></footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
